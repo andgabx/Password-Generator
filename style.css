@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-    font-family: 'Source Code Pro', monospace; /* Fonte estilo programador */
+    font-family: 'Source Code Pro', monospace; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #5b4039; /* Fundo marrom */
-    color: #fff; /* Texto branco para contraste */
+    background-color: #5b4039; 
+    color: #fff; 
 }
 
 .container {
-    background-color: #fff; /* Fundo branco para o container */
-    color: #333; /* Texto em cor escura para contraste */
+    background-color: #fff; 
+    color: #333; 
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
