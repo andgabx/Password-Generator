@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas</h1>
+        <div class="form-group">
+            <label for="length">Número de caracteres:</label>
+            <input type="number" id="length" min="1" max="128" required>
+        </div>
+        <div class="form-group">
+            <label for="specials">Incluir caracteres especiais:</label>
+            <input type="checkbox" id="specials">
+        </div>
+        <button id="generate">Gerar Senha</button>
+        <div class="form-group">
+            <label for="password">Sua Senha:</label>
+            <input type="text" id="password" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
